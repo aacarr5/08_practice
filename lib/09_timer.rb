@@ -1,9 +1,9 @@
 class Timer 
 
-	attr_reader :time_string
+	attr_reader :time
 
-	def seconds(time = nil) 
-	 #have no idea what I'm doing in this first method...
+	def initialize(time=0)
+		@time = time
 	end
 
 	def seconds=(time)
