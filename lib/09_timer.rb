@@ -6,7 +6,7 @@ class Timer
 		@time = time
 	end
 
-	def seconds=(time)
+	def seconds=(input)
 		hours = time / 3600
 		minutes = (time - (hours*3600)) / 60 
 		seconds = time - hours*3600 - minutes*60
@@ -17,9 +17,9 @@ class Timer
 	end
 end
 
-time1=Timer.new
+#time1=Timer.new
 
-puts time1.seconds
+#puts time1.seconds
 
 
 
